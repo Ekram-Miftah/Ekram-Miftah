@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="form.png">
+    <script src="https://kit.fontawesome.com/e4a0eb1f5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+       <form action="">
+        <i class="fas fa-paper-plane"></i>
+        <div class="input-group">
+            <label for="">Full Name</label>
+            <input type="text" placeholder="Enter Your Name Here" id="contact-name" onkeyup="validateName()">
+            <span id="name-err"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="">Phone No</label>
+            <input type="tel" placeholder="Enter Your Phone Number" id="contact-phone" onkeyup="validatePhone()">
+            <span id="phone-err"></span>
+        </div>
+        <div class="input-group">
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter Your Password" id="contact-passd" onkeyup="validatePassword()">
+            <img src="images/eyec lose.png" alt="" id="eye_icon">
+            <span id="passd-err"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter Your Eamil" id="contact-email" onkeyup="validateEmail()">
+            <span id="email-err"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="">Message</label>
+           <textarea  rows="5"   placeholder="Enter Your Message Here" id="textarea" onkeyup="validateMessage()"></textarea>
+            <span id="msg-err"></span>
+        </div>
+<button type="submit" onclick="return validateForm">Submit</button>
+<span id="btn-err"></span>
+
+       </form>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
