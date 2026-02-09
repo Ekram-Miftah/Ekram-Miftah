@@ -10,7 +10,7 @@ Frontend: JavaScript (ES6+), React.js, Next.js, Tailwind CSS, Material UI
 
 Backend: Node.js, Express.js, RESTful APIs
 
-Databases: MongoDB, PostgreSQL, Firebase/Firestore
+Databases: MongoDB, PostgreSQL
 
 Tools: Git, GitHub, Vercel, Netlify
 
