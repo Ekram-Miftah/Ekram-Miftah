@@ -1,6 +1,6 @@
 👋 Hi, I’m Ekram Miftah
 
-Full Stack Developer | Software Engineering Student
+Full Stack Developer 
 
 I am a results-driven Software Engineering student specializing in building robust, user-centric web applications. With a strong foundation in the MERN stack and Next.js, I focus on architecting scalable solutions from database design to responsive frontend interfaces.
 
@@ -32,6 +32,3 @@ Car Wash Admin Panel – Business-focused dashboard for service management and r
 
 📫 Reach me: LinkedIn | Portfolio | ekrammiftah013@gmail.com
 
-⚡ Fun Fact
-
-I turn caffeine into clean, maintainable code! ☕💻
